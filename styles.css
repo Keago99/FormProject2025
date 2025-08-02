@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#picArea{
+    background-image: url(images/plants.jpg);
+    background-size: cover;
+    width: 35vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
