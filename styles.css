@@ -11,16 +11,16 @@
 #picArea{
     background-image: url(images/plants.jpg);
     background-size: cover;
-    width: 35vw;
+    width: 37vw;
     height: 100vh;
     margin: 0;
     padding: 0;
-    padding-top: 200px;
+    padding-top: 230px;
 }
 
 #odinLogo{
   display: flex;
-  height: 200px;
+  height: 150px;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
 
@@ -29,7 +29,14 @@
 #odinWords{
   text-align: center;
   color: white;
-  padding-top: 50px;
+  padding-top: 25px;
   font-family: Norse;
   font-size: 100px;
+}
+
+#attribution{
+  text-align: center;
+  color: white;
+  font-size: large;
+  margin-top: 600px;
 }
