@@ -79,4 +79,21 @@ input{
   width: 250px;
   border-radius: 5px;
   padding-left: 5px;
+  border-color: #E5E7EB;
+  border: 1px solid #ccc !important;
+}
+
+label{
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+input:invalid{
+  border: red;
+}
+
+input:valid{
+  border: blue;
 }
