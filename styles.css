@@ -94,6 +94,19 @@ input:invalid{
   border: red;
 }
 
-input:valid{
-  border: blue;
+input:focus{
+  border-color: blue !important;
+  outline: none !important;
+}
+
+hr.full-bleed {
+  width: calc(100% + 145px); 
+  margin-left: -50px;
+  border: 0;                 /* Reset default <hr> */
+  height: 3px;               /* Line thickness */
+  background: #ddd;          /* Line color */
+    box-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.15),  /* Primary shadow (soft spread) */
+    0 2px 4px rgba(0, 0, 0, 0.2);    /* Secondary shadow (sharp accent) */
+
 }
