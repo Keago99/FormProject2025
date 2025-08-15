@@ -16,7 +16,7 @@ body{
     background-image: url(images/plants.jpg);
     background-size: cover;
     width: 40vw;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
     padding-top: 230px;
@@ -109,4 +109,26 @@ hr.full-bleed {
     0 4px 12px rgba(0, 0, 0, 0.15),  /* Primary shadow (soft spread) */
     0 2px 4px rgba(0, 0, 0, 0.2);    /* Secondary shadow (sharp accent) */
 
+}
+
+.signUpButton{
+  margin-top: 30px;
+  background-color: #596D48;
+  border-radius: 8px;
+  color: white;
+  width: 250px;
+  height: 50px;
+  font-weight: bold;
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logInDiv{
+  margin-top: 20px;
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.oliveSpan{
+  color: #596D48;
 }
